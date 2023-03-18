@@ -1,0 +1,20 @@
+.container{
+
+    background-color:#230312 ;
+    padding-top: 10px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__title{
+        color: #d1cdcf;
+    }
+
+    &__list{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #230312;
+        justify-content: center;
+    }
+}
